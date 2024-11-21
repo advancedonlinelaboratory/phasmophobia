@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Phasmophobia</title>
+    <style>
+        /* Reset a základné nastavenia */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Bookman Old Style', serif;
+            color: #FFFFFF; /* Biely text cez hex kód */
+            overflow-x: hidden;
+            background: url('phasma.jpg') no-repeat center center fixed;
+            background-size: cover;
+            filter: brightness(50%);
+        }
+
+        /* Sekcia pre text */
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Nadpis */
+        h1, p {
+            color: #FFFFFF; /* Biely text cez hex kód */
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 4em;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        p {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 1em;
+            animation: slideIn 2s ease-in-out forwards;
+        }
+
+        /* Tlačidlo "Pozrieť VIDEO" */
+        .btn-video {
+            background-color: #FFFFFF; /* Biely pozadie tlačidla */
+            color: #000000; /* Čierny text na tlačidle */
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+            animation: pulse 1.5s infinite;
+        }
+
+        /* Efekt pre tlačidlo */
+        .btn-video:hover {
+            background-color: #f1f1f1; /* Svetlo sivý efekt pri prechode myšou */
+            color: #000000;
+        }
+
+        /* Animácie */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animácia pre tlačidlo */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div>
+            <h1>Phasmophobia - Horror Game</h1>
+            <h2>by Peter Novák CR4CKV4MPR</h2>
+            <p>Stiahnite si zadarmo Phasmophobiu (+multiplayer) zadarmo</p>
+            <p>by Cr4ckV4mpr🦇</p>
+            <a href="https://drive.google.com/file/d/1NsZD4u3qiGMJr7lDcdf-oOUX8PiKKAty/view?usp=sharing" class="btn-video" target="_blank">Stiahnuť Phasmophobiu (❗12,6gb, ZIP❗)</a> <!-- Link na YouTube -->
+        </div>
+    </div>
+</body>
+</html>
